@@ -1,20 +1,18 @@
-/**Bower SCSS Paths - These will be compiled in full in your SCSS **/
-$bootstrap_sass: './../../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
-$fontawesome_sass: './../../../../bower_components/font-awesome-sass/assets/stylesheets/_font-awesome.scss';
-$jquery_mmenu: './../../../../bower_components/jQuery.mmenu/src/scss/jquery.mmenu.all.scss';
+/**Bower SCSS Imports - These will be compiled in full in your SCSS **/
+@import '../../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../../../../bower_components/font-awesome-sass/assets/stylesheets/font-awesome.scss';
+@import '../../../../bower_components/jQuery.mmenu/src/scss/jquery.mmenu.all.scss';
 
-/** Bower Static CSS Paths - These would be included as standard CSS includes with HTTP Requests **/
-$jq_ui: './../../../../bower_components/jqueryui/themes/ui-lightness/jquery-ui.min.css';
-$jq_upload: './../../../../bower_components/jquery-file-upload/css/jquery.fileupload.css';
-$jq_datepicker: './../../../../bower_components/datetimepicker/jquery.datetimepicker.css';
-$jq_ngsortable: './../../../../bower_components/ng-sortable/dist/ng-sortable.min.css';
-$jq_ngsortable_style: './../../../../bower_components/ng-sortable/dist/ng-sortable.style.min.css';
-
-
-/****** Imports *******/
-@import $bootstrap_sass;
-@import $fontawesome_sass;
-@import $jquery_mmenu;
+/** Bower Static CSS Imports 
+*	These would be included as standard CSS includes with HTTP Requests and would require you to ship the bower_components directory 
+**/
+/**
+*@import '/bower_components/jqueryui/themes/ui-lightness/jquery-ui.min.css';
+*@import '/bower_components/jquery-file-upload/css/jquery.fileupload.css';
+*@import '/bower_components/datetimepicker/jquery.datetimepicker.css';
+*@import '/bower_components/ng-sortable/dist/ng-sortable.min.css';
+*@import '/bower_components/ng-sortable/dist/ng-sortable.style.min.css';
+**/
 
 
 /**Brand Colors**/

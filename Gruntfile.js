@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 			},
 			javascript: {
                 files: 'includes/javascript/**/*.js',
-                tasks: ['uglify:gosite']
+                tasks: ['uglify:applibs']
             },
 			livereload: {
 				files: ['css/*.css'],
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 			}
 		},
 		uglify: {
-			gosite:{
+			applibs:{
 			  options: {
 			  	//beautify: true,
 			  	//mangle: false,

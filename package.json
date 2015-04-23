@@ -3,13 +3,7 @@
     "name": "Jon Clausen",
     "email": "jon_clausen@silowebworks.com"
   },
-  "contributors": [
-    {
-      "name": "Jon Clausen"
-    }
-
-  ],
-  "name": "Coldbox Dependency Presentation",
+  "name": "cb-deps-prezi",
   "description": "Coldbox Connection Presentation for Dependency Management - 4/23/2015",
   "keywords": [
     "coldbox",
@@ -21,10 +15,11 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pencilblue/pencilblue.git"
+    "url": "https://github.com/jclausen/cb-deps-prezi.git"
   },
   "dependencies": {
-    "npm": "1.4.20",
+    "bower": "0.2.0",
+    "npm": "1.4.20"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -32,6 +27,4 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-sass": "^0.17.0"
   }
-  "readme": "See README file",
-  "readmeFilename": "README.md"
 }
