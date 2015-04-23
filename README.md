@@ -5,8 +5,8 @@ Coldbox Connection - April 23, 2015
 
 Previously Installed Dependencies:
 
-NodeJS: https://nodejs.org/download/
-CommandBox:  https://www.ortussolutions.com/products/commandbox
+- NodeJS: https://nodejs.org/download/
+- CommandBox:  https://www.ortussolutions.com/products/commandbox
 
 
 Step 1:
@@ -29,7 +29,7 @@ bower install
 
 Step 3:
 -------
-Start Grunt and let it do its thing:
+Start Grunt and let it do its thing.  From this point on, every file changed in includes/sass/compile, includes/sass/include, and includes/javascript
 
 ```
 grunt
