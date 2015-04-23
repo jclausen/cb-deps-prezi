@@ -1,8 +1,13 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
+require 'capistrano/git-submodule-strategy'
+set :git_strategy, Capistrano::Git::SubmoduleStrategy
 
 set :application, 'cbdepsprezi'
 set :repo_url, 'git@github.com:jclausen/cb-deps-prezi.git'
+set :branch, ENV["REVISION"] || ENV["BRANCH_NAME"]
+ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
+
 
 set :domain, 'cbdepsprezi.silowebworks.com'
 
