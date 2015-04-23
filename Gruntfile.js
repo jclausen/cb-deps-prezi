@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				tasks: ['sass:dist']
 			},
 			javascript: {
-                files: 'includes/javascript/**/*.js',
+                files: 'includes/js/**/*.js',
                 tasks: ['uglify:applibs']
             },
 			livereload: {
