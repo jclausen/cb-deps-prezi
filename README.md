@@ -4,7 +4,7 @@ Coldbox Connection - April 23, 2015
 -----------------------------------
 
 Previously Installed Dependencies:
-
+----------------------------------
 - NodeJS: https://nodejs.org/download/
 - CommandBox:  https://www.ortussolutions.com/products/commandbox
 
@@ -68,3 +68,37 @@ then open a new console window and enter:
 ```
 box server start
 ```
+
+Automated Deployment and Rollback with Capistrano
+=================================================
+
+Step 1:
+-------
+Install Ruby and Rubygems
+
+Instructions to install Ruby here: https://www.ruby-lang.org/en/documentation/installation/
+
+Instructions to install RubyGems here: https://rubygems.org/pages/download
+
+
+
+Step 2:
+------
+Install Capistrano
+
+```
+gem install capistrano
+```
+
+Step 3:
+------
+From the root of the project "Capify" it:
+
+```
+cap install
+```
+
+Step 4:
+-------
+Configure your deployment defaults (config/deploy.rb) environments in config/deploy/[environment].rb (production and staging files are created by default)
+
