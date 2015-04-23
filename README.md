@@ -22,7 +22,7 @@ Step 2:
 From the root of this project, create a new Coldbox Application:
 
 ```
-box coldbox create app cbDepPrezi
+box coldbox create app cbDepsPrezi
 ```
 
 Step 3:
