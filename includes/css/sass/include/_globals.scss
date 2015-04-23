@@ -1,0 +1,54 @@
+/**Bower SCSS Paths - These will be compiled in full in your SCSS **/
+$bootstrap_sass: './../../../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+$fontawesome_sass: './../../../../bower_components/font-awesome-sass/assets/stylesheets/_font-awesome.scss';
+$jquery_mmenu: './../../../../bower_components/jQuery.mmenu/src/scss/jquery.mmenu.all.scss';
+
+/** Bower Static CSS Paths - These would be included as standard CSS includes with HTTP Requests **/
+$jq_ui: './../../../../bower_components/jqueryui/themes/ui-lightness/jquery-ui.min.css';
+$jq_upload: './../../../../bower_components/jquery-file-upload/css/jquery.fileupload.css';
+$jq_datepicker: './../../../../bower_components/datetimepicker/jquery.datetimepicker.css';
+$jq_ngsortable: './../../../../bower_components/ng-sortable/dist/ng-sortable.min.css';
+$jq_ngsortable_style: './../../../../bower_components/ng-sortable/dist/ng-sortable.style.min.css';
+
+
+/****** Imports *******/
+@import $bootstrap_sass;
+@import $fontawesome_sass;
+@import $jquery_mmenu;
+
+
+/**Brand Colors**/
+$brand_inline_blue: #2f87aa;
+$brand_bright_blue: #35b4df;
+$brand_bright_orange: #ef7d37;
+$brand_bright_green: #c0ec6a;
+
+/**Brand Alternate Pallette Colors**/
+$brand_muted_bright_blue: #30abd5;
+$brand_burnt_orange: #c67138;
+$brand_alt_bright_blue: #30abd5;
+$brand_forest_green: #62724b;
+$brand_olive_green: #7f8000;
+
+$dark_grey: #464646;
+$medium_grey: #71706b;
+$md_grey: $medium_grey;
+$medium_light_grey: #90918c;
+$light_grey: #b7bfc2;
+$lt_grey: $light_grey;
+$off_white: #f5f5f5;
+$almost_white: $off_white;
+
+/*** Font Styles ***/
+$font-family-serif: "Times New Roman","Times", serif;
+$font-family-sans-serif: "Helvetica Neue",Helvetica,Arial, sans-serif;
+$headings-font-family: $font-family-serif;
+
+$title-fonts: $font-family-sans-serif;
+$text-fonts: $font-family-sans-serif;
+
+/** Angular Hidden Until Ready **/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+

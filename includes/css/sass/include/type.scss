@@ -1,0 +1,14 @@
+/**
+* Global Typography Styles
+**/
+body{
+	font-family: $font-family-sans-serif;
+	color: $dark_grey;
+	a,h1,h2,h3,h4 {
+	color: $brand_inline_blue;
+	background-color: inherit;
+	}
+}
+
+
+
