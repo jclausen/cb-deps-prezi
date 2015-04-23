@@ -37,7 +37,7 @@ module.exports = function(grunt) {
 			    banner: '/*! Coldbox Dependency Management Prezi <%= grunt.template.today("dd-mm-yyyy") %> */\n'
 			  },
 			  files: {
-			  	'includes/js/app.js': ['include/js/lib/_globals.js','include/js/lib/**/*.js']
+			  	'includes/js/app.js': ['includes/js/lib/_globals.js','includes/js/lib/**/*.js']
 			  }
 			},
 			libraries:{
