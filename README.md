@@ -2,6 +2,7 @@ ColdBox Dependency Management Presentation Files
 ================================================
 Coldbox Connection - April 23, 2015
 -----------------------------------
+Recorded Archive: http://experts.adobeconnect.com/p9mdfocrbzs/
 
 Previously Installed Dependencies:
 
