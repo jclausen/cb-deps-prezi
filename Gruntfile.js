@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 				tasks: ['sass:dist']
 			},
 			javascript: {
-                files: 'includes/js/**/*.js',
+                files: 'includes/js/lib/**/*.js',
                 tasks: ['uglify:applibs']
             },
 			livereload: {
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 					banner: '/*! Coldbox Dependency Management Prezi - Consolidated Open Source Libraries. Generated: <%= grunt.template.today("dd-mm-yyyy") %> */\n\n'
 				},
 				files: {
-					'includes/javascript/lib.js':
+					'includes/js/lib.js':
 					[
 				      	'bower_components/jquery/dist/jquery.min.js',
 				      	'bower_components/bootstrap/dist/js/bootstrap.min.js',
