@@ -23,4 +23,5 @@ set :server_type, 'unix'
 server 'cbdepsprezi.silowebworks.com', user: 'root', port: 17022, roles: %w{web app}, my_property: :my_value
 
 after "deploy:finishing","lucee:unix:restart"
+after "lucee:unix:restart","coldbox:reinit"
 
