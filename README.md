@@ -16,13 +16,19 @@ Install Bower Globally
 npm install -g bower
 ```
 
+Recommended: Install Grunt Globally
+
+```
+npm install -g grunt
+```
+
 Step 2:
 ------
 
 From the root of this project, create a new Coldbox Application:
 
 ```
-box coldbox create app cbDepsPrezi
+box coldbox create app cbDepsPrezi && box install coldbox
 ```
 
 Step 3:
@@ -48,4 +54,17 @@ Due to the relative paths in the Font Awesome SCSS, we'll have to copy our font 
 
 ```
 cp bower_components/font-awesome-sass/assets/fonts/* includes/fonts/
+```
+
+If you want to do it all in one command:
+----------------------------------------
+
+```
+box coldbox create app cbDepsPrezi && box install coldbox && npm install && bower install && grunt
+```
+
+then open a new console window and enter:
+
+```
+box server start
 ```
